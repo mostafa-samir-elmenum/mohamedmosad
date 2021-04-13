@@ -5,5 +5,7 @@ $(function(){
         $(".contact-form").fadeIn();
     },function(){
         $(".contact-form").fadeOut();
-    })
+    });
+
+    
 })

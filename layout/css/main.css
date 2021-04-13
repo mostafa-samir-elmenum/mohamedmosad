@@ -1,10 +1,11 @@
 body
 {
-    height: 4000px;
+   
 }
+/*start navbar*/
 .navbar {
     margin-bottom: 0;
-    background-color: #f4511e;
+    background-color: #26C6DA;
     z-index: 9999;
     border: 0;
     font-size: 12px !important;
@@ -18,7 +19,7 @@ body
   }
   
   .navbar-nav li a:hover, .navbar-nav li.active a {
-    color: #f4511e !important;
+    color: #00838F !important;
     background-color: #fff !important;
   }
   
@@ -27,6 +28,45 @@ body
     color: #fff !important;
   }
 
+  .navbar-header button
+  {
+    top: 16px;
+    left: 431px;
+   z-index: 999;
+  }
+  @media(max-width:770px)
+  {
+    .navbar-header button
+    {
+    left: 600px;
+  }
+  }
+
+  @media(max-width:550px)
+  {
+    .navbar-header button
+    {
+    left: 431px;
+  }
+  }
+  @media(max-width:390px)
+  {
+    .navbar-header button
+    {
+    left: 346px;
+  }
+  }
+
+
+  @media(min-width:770px)
+  {
+  .navbar-header button
+  {
+    display: none;
+  }
+}
+/*end navbar*/
+/*start slider*/
 .xx
 {
     position: relative;
@@ -67,3 +107,74 @@ body
     transform: translate(-50%, -50%);
     white-space: nowrap;
   }
+ 
+/*end slider*/
+
+/*start about us*/
+.about-us 
+{
+  margin-bottom: 50px;
+}
+.about-us .about-title
+{
+  text-transform: capitalize;
+  font-weight: bold;
+}
+.about-us .about-img
+{
+  border: 3px solid #008CBA;
+  border-radius: 20px;
+}
+/*end about us*/
+/*start modulator*/
+.modulator
+{
+  margin-bottom: 50px;
+}
+.modulator-img
+{
+  border: 3px solid #008CBA;
+  border-radius: 20px;
+}
+/*end modulator*/
+
+/*start cntact us*/
+.contact-us .contact-title
+{
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.contact-us  ul li
+{
+  text-transform: capitalize;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.contact-us  ul li i
+{
+  padding-right: 15px;
+  color: #00838F;
+}
+.contact-us .social
+{
+  display: flex;
+}
+
+/*end cntact us*/
+
+.page
+{
+  background-image: url("../img/2.jpg");
+  height: 100%;
+  width: 100%;
+}
+
+
+/*start footer*/
+footer p
+{
+  text-transform: capitalize;
+  font-weight: bold;
+  color: #008CBA;
+  font-size: 20px;
+}
